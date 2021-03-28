@@ -1,13 +1,13 @@
 
 spring:
   datasource:
-    name: jinhui  #数据库名
-    url: jdbc:mysql://localhost:3306/jinhui?serverTimezone=Asia/Shanghai #url
-    username: root  #用户名
-    password: c31415926  #密码
-    driver-class-name: com.mysql.cj.jdbc.Driver  #数据库链接驱动
+    name: jinhui
+    url: jdbc:mysql://localhost:3306/jinhui?serverTimezone=Asia/Shanghai
+    username: root
+    password: c31415926
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 
 mybatis:
-  mapper-locations: classpath:mapper/*.xml  #配置映射文件
-  type-aliases-package: com.sanxun.test.pojo #配置实体类
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.sanxun.test.pojo
